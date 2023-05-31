@@ -198,7 +198,7 @@ function queryPublic(method, parameters, apiVersion)
   jsond = json:dictionary()
   kucoinerror = jsond['code'] or kucoinerror
 
-  return jsond
+  return jsond, kucoinerror
 end
 
 function queryPrivate(method, parameters, apiVersion)
@@ -228,5 +228,6 @@ function queryPrivate(method, parameters, apiVersion)
   json = JSON(content)
   jsond = json:dictionary()
   kucoinerror = jsond['code'] or kucoinerror
+
   return jsond, kucoinerror
 end

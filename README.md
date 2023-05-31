@@ -38,7 +38,7 @@ The only permission that the key needs is the default "General"
 * Add a new account of type “KuCoin”
 * In the "Username" field insert your key and the passphrase in the form KEY+PASSPHRASE
 * The "Password" field needs the secret key
-* Choose which account you want to monitor
+* Choose which account you want to monitor  
 Now you have an overview over your available balances on KuCoin
 
 ### Screenshot
