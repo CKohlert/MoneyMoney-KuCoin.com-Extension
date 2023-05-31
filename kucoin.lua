@@ -184,7 +184,7 @@ function queryPublic(method, parameters, apiVersion)
   local apiVersion = apiVersion or "v1"
   local endpoint = string.format("/api/%s/%s", apiVersion, method)
   local endpoint = endpoint .. (parameters and "?" .. parameters or "")
-  local kucoinerror = 0
+  local kucoinerror = -1
 
   local headers = {}
   -- headers["User-Agent"] = MM.productName .. "/" .. MM.productVersion
