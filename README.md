@@ -28,10 +28,10 @@ which you can enable in the Preferences
 3. Create API (https://www.kucoin.com/account/api/create)  
 Save the passphrase you invented! You wont see it elsewhere again!  
 The only permission that the key needs is the default "General"  
-![KuCoin screenshot create API](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension/blob/master/img/kucoin%20create%20api.png)
+![KuCoin screenshot create API](https://raw.githubusercontent.com/CKohlert/MoneyMoney-KuCoin.com-Extension/master/img/kucoin%20create%20api.png)
 4. Go through the "Security Verification" page
 5. Note the key and the secure key that presents itself in the resulting dialog somewhere safe  
-![KuCoin screenshot API create result](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension/blob/master/img/kucoin%20api%20result.png)
+![KuCoin screenshot API create result](https://raw.githubusercontent.com/CKohlert/MoneyMoney-KuCoin.com-Extension/master/img/kucoin%20api%20result.png)
 
 ### MoneyMoney
 
@@ -43,7 +43,7 @@ Now you have an overview over your available balances on KuCoin
 
 ### Screenshot
 
-![KuCoin screenshot overview](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension/blob/master/img/kucoin%20overview.png)
+![KuCoin screenshot overview](https://raw.githubusercontent.com/CKohlert/MoneyMoney-KuCoin.com-Extension/master/img/kucoin%20overview.png)
 
 ## Known Issues and Limitations
 
