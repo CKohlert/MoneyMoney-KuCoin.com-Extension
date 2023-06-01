@@ -1,8 +1,12 @@
 -- Inofficial KuCoin Extension (www.kucoin.com) for MoneyMoney
 -- Fetches balances from KuCoin API and returns them as securities
 --
+-- older MoneyMoney Dialog:
 -- Username: KuCoin API Key + KuCoin API Passphrase (example: "KKKKK+PPPPP")
 -- Password: KuCoin API Secret
+--
+-- newer MoneyMoney Dialog:
+-- there are explicit named input fields for API Key, Passphrase and Secret
 --
 -- MIT License
 --
