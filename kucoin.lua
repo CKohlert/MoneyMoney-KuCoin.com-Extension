@@ -48,9 +48,16 @@ function SupportsBank (protocol, bankCode)
 end
 
 function InitializeSession (protocol, bankCode, username, username2, password, username3)
-  -- Key + Passphrase is in username
-  apiKey, apiPassphrase = string.match(username, "(%w+)%+(%g+)")
-  apiSecret = password
+  if username2 and username2 ~= "" then -- support for a newer version of MoneyMoney
+    -- Key, Passphrase and Secret are in username, username2 and password
+    apiKey = username
+    apiPassphrase = username2
+    apiSecret = password
+  else
+    -- Key + Passphrase is in username
+    apiKey, apiPassphrase = string.match(username, "(%w+)%+(%g+)")
+    apiSecret = password
+  end
   if not apiSecret or not apiKey or not apiPassphrase then return LoginFailed end
 end
 
