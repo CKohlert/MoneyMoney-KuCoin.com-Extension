@@ -242,3 +242,5 @@ function queryPrivate(method, parameters, apiVersion)
 
   return jsond, kucoinerror
 end
+
+-- SIGNATURE: MC0CFQCdDJxkuxN+IZXkH1JkfytNnIs+1wIUKcIS+V2HiUAPNxM8ZHDPBtDkhhk=

@@ -5,19 +5,18 @@ available balances from the KuCoin API and returns them as securities.
 Prices are in EUR.
 
 Requirements:
-* MoneyMoney v2.3.4+
+* MoneyMoney v2.4.28+ or a beta-version
 
 ## Download Signed Extension
 
-As long as this extension is not signed by MoneyMoney, you can get it from
-* [the GitHub](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension) page
+You can get a signed version of this extension from
+
+* [the GitHub](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension) page, or
+* the [MoneyMoney Extensions](https://moneymoney-app.com/extensions/) page
 
 Once downloaded, move `kucoin.lua` to your MoneyMoney Extensions folder which you can
 open in MoneyMoney with the menu  
 "Help" -> "Show Database in Finder".
-
-You need to run MoneyMoney as Beta-Version to enable running unsigned extensions
-which you can enable in the Preferences
 
 ## Account Setup
 
@@ -36,8 +35,17 @@ The only permission that the key needs is the default "General"
 ### MoneyMoney
 
 * Add a new account of type “KuCoin”
+
+**For a beta-version older than v2.4.28:**
+
 * In the "Username" field insert your key and the passphrase in the form KEY+PASSPHRASE
 * The "Password" field needs the secret key
+
+**Since version v2.4.28+:**
+
+Just fill in key, passphrase and the secure-key in the right spots in the Dialog:
+![MoneyMoney Credentials Dialog](https://raw.githubusercontent.com/CKohlert/MoneyMoney-KuCoin.com-Extension/master/img/moneymoney%20kucoin%20credential%20dialog.png)
+
 * Choose which account you want to monitor  
 Now you have an overview over your available balances on KuCoin
 
