@@ -11,7 +11,7 @@ Requirements:
 
 You can get a signed version of this extension from
 
-* [the GitHub](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension) page, or
+* my [GitHub releases](https://github.com/CKohlert/MoneyMoney-KuCoin.com-Extension/releases/latest) page, or
 * the [MoneyMoney Extensions](https://moneymoney-app.com/extensions/) page
 
 Once downloaded, move `kucoin.lua` to your MoneyMoney Extensions folder which you can
