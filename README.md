@@ -5,7 +5,7 @@ available balances from the KuCoin API and returns them as securities.
 Prices are in EUR.
 
 Requirements:
-* MoneyMoney v2.4.28+ or a beta-version
+* MoneyMoney v2.4.28+
 
 ## Download Signed Extension
 
@@ -35,15 +35,8 @@ The only permission that the key needs is the default "General"
 ### MoneyMoney
 
 * Add a new account of type “KuCoin”
+* Just fill in key, passphrase and the secure-key in the right spots in the credentials dialog:
 
-**For a beta-version older than v2.4.28:**
-
-* In the "Username" field insert your key and the passphrase in the form KEY+PASSPHRASE
-* The "Password" field needs the secret key
-
-**Since version v2.4.28+:**
-
-Just fill in key, passphrase and the secure-key in the right spots in the Dialog:
 ![MoneyMoney Credentials Dialog](https://raw.githubusercontent.com/CKohlert/MoneyMoney-KuCoin.com-Extension/master/img/moneymoney%20kucoin%20credential%20dialog.png)
 
 * Choose which account you want to monitor  
