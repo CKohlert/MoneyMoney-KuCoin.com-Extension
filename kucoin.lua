@@ -216,7 +216,7 @@ function queryPrivate(method, parameters, apiVersion)
   local apiVersion = apiVersion or "v1"
   local endpoint = string.format("/api/%s/%s", apiVersion, method)
   local endpoint = endpoint .. (parameters and "?" .. parameters or "")
-  local timestamp = string.format("%d", MM.time() * 1000)
+  local timestamp = string.format("%d", math.floor(MM.time() * 1000))
   local signStr = timestamp .. "GET" .. endpoint
   local endpointSign = MM.hmac256(apiSecret, signStr)
   local passphraseSign = MM.hmac256(apiSecret, apiPassphrase)
